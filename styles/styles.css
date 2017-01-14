@@ -1,8 +1,14 @@
 
+body{
+  background-color: black;
+  color: white;
+}
+
 .col-md-3{
   border: solid black 1px;
   height: 220px;
   margin-bottom: 2px;
+  background-color: white;
 }
 .col-md-3 img {
   /*display: none;*/
