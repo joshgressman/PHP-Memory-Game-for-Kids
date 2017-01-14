@@ -1,0 +1,15 @@
+
+.col-md-3{
+  border: solid black 1px;
+  height: 220px;
+  margin-bottom: 2px;
+}
+.col-md-3 img {
+  /*display: none;*/
+}
+
+
+#userInfo {
+height: 200px;
+
+}
