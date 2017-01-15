@@ -13,7 +13,11 @@
 <body>
 <div>
   <div id="userInfo">
-    inputs go here for the game
+    <form action ="" method="post">
+      <label for="username">Enter a username</label>
+      <input type="text" name="username">
+      <input class="btn btn-primary" type="submit" name="submit" value="submit">
+    </form>
   </div>
   <div class="container">
     <?php
@@ -31,17 +35,24 @@
      getImages();
 
     ?>
+
     <div class="row">
      <div class="col-md-3" id="hidden1"><?php echo $imageArray[$number[rand(0,15)]]?></div>
      <div class="col-md-3" id="hidden2"><?php echo $imageArray[$number[rand(0,15)]]?></div>
      <div class="col-md-3" id="hidden3"><?php echo $imageArray[$number[rand(0,15)]]?></div>
      <div class="col-md-3" id="hidden4"><?php echo $imageArray[$number[rand(0,15)]]?></div>
-  </div>
+   </div>
   <div class="row">
    <div class="col-md-3" id="hidden5"><?php echo $imageArray[$number[rand(0,15)]]?></div>
    <div class="col-md-3" id="hidden6"><?php echo $imageArray[$number[rand(0,15)]]?></div>
    <div class="col-md-3" id="hidden7"><?php echo $imageArray[$number[rand(0,15)]]?></div>
    <div class="col-md-3" id="hidden8"><?php echo $imageArray[$number[rand(0,15)]]?></div>
+</div>
+<div class="row">
+  <div class="col-md-3" id="hidden9"><?php echo $imageArray[$number[rand(0,15)]]?></div>
+  <div class="col-md-3" id="hidden10"><?php echo $imageArray[$number[rand(0,15)]]?></div>
+  <div class="col-md-3" id="hidden11"><?php echo $imageArray[$number[rand(0,15)]]?></div>
+  <div class="col-md-3" id="hidden12"><?php echo $imageArray[$number[rand(0,15)]]?></div>
 </div>
 </div>
 </body>

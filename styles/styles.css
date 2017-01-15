@@ -6,6 +6,7 @@ body{
 
 .col-md-3{
   border: solid black 1px;
+  border-radius: 10px;
   height: 220px;
   margin-bottom: 2px;
   background-color: white;
@@ -17,5 +18,6 @@ body{
 
 #userInfo {
 height: 200px;
-
+background-color: black;
+margin-bottom: 10px;
 }

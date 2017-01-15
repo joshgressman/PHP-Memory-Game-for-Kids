@@ -1,5 +1,9 @@
 
 $(document).ready(function(){
 
-  console.log("Document ready running");
+$(this,'.col-md-3').on('click', function(){
+  var hidden1 = 1;
+  console.log(hidden1);
+});
+
 });
