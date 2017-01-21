@@ -21,3 +21,7 @@ height: 200px;
 background-color: black;
 margin-bottom: 10px;
 }
+
+.displayImg img {
+  display: block;
+}

@@ -20,6 +20,9 @@
     </form>
   </div>
   <div class="container">
+    <div class="score">
+
+    </div>
     <?php
 
      //Need to get random varibles 4 numbers with random range between 0 and 15
