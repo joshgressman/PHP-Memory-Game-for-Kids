@@ -25,3 +25,12 @@ margin-bottom: 10px;
 .displayImg img {
   display: block;
 }
+
+.match {
+  background-color: black;
+}
+
+.match img{
+  display: none;;
+
+}
